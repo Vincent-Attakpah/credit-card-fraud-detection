@@ -1,4 +1,3 @@
-# credit-card-fraud-detection
 # Credit Card Fraud Prediction
 
 A machine learning project to detect fraudulent credit card transactions using feature selection and Random Forest classification.
@@ -13,7 +12,7 @@ Credit card fraud is a critical challenge faced by financial institutions. This 
 
 ## 📊 Dataset
 
-- **Source**: The dataset was obtained from [Kaggle's Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+- **Source**: The dataset was obtained from [Kaggle's Credit Card Fraud Detection Dataset]([https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/code/anoshessam/ml-on-credit-card-fraud-detection-2023)).
 - **Description**:
   - 31 columns: anonymized features (`V1`–`V28`), `Amount`, and `Class` (0 = non-fraud, 1 = fraud).
   - 398,041 training samples, 170,589 test samples.
@@ -26,7 +25,6 @@ Credit card fraud is a critical challenge faced by financial institutions. This 
    - Analyzed data distribution, class imbalance, and feature correlation.
 2. **Feature Engineering**:
    - Scaled the `Amount` column using log transformation.
-   - Applied **PCA** to reduce dimensionality.
    - Selected the top 10 features using `SelectKBest` with the chi-squared test.
 3. **Modeling**:
    - Used a Random Forest Classifier with hyperparameter tuning.
